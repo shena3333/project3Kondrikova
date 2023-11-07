@@ -1,0 +1,1388 @@
+.body {
+    background-color: #050729;
+    background-image: url(./Background.png);
+    width: 2173px;
+    height: 1296px;
+    display: grid;
+    grid-template-columns: 3fr 14fr;
+    margin: 0px;
+}
+
+.menu {
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    height: 100%;
+    margin: 0;
+}
+
+.main-part {
+    margin: 0px;
+}
+
+.menu-list {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-left: 139px;
+    margin-top: 47px;
+}
+
+.menu-link {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 17px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 47px;
+}
+
+.second-menu {
+    margin-left: 131px;
+    position: absolute;
+    bottom: 211px;
+}
+
+.flex-logo {
+    margin-top: 41px;
+    display: flex;
+    margin-left: 93px;
+}
+
+.yourlogo {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+    color: #A276FF;
+}
+
+.menu-list:active {
+    color: #A276FF;
+}
+
+.yourlogo-end {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+    color: white;
+}
+
+.container-menu-list {
+    margin-top: 79px;
+}
+
+.flex-container-foto {
+    display: wrap;
+    margin-left: 208px;
+    margin-top: 100px;
+}
+
+.foto {
+    border: 6px solid #FFFFFF;
+    border-radius: 11px;
+    margin-right: 79px;
+}
+
+.foto:hover {
+    box-shadow: 7px 7px 15px black;
+    transform: scale(1.2);
+}
+
+.name {
+    color: white;
+    font-size: 56px;
+    font-family: 'Oswald';
+    font-style: normal;
+    margin-top: 50px;
+    margin-left: 208px;
+    margin-block-start: 270px;
+    margin-block-end: 0;
+}
+
+.subtitle {
+    color: #A276FF;
+    font-size: 120px;
+    font-family: 'Oswald';
+    font-style: normal;
+    margin-left: 208px;
+    margin-block-start: 0px;
+    margin-block-end: 0;
+}
+
+.main-text {
+    width: 1000px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 29px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin-left: 208px;
+    margin-block-start: 10px;
+}
+
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-left: 208px;
+}
+
+.button-link {
+    margin-left: 208px;
+}
+
+.flex-news {
+    display: flex;
+    margin-left: 208px;
+}
+
+.text-name {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 17px;
+    color: #FFFFFF;
+    opacity: 0.25;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 131px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.news-box {
+    font-family: Oswald;
+    font-size: 42px;
+    font-style: normal;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+
+.triangle {
+    width: 37px;
+    height: 34px;
+    padding-top: 73px;
+}
+
+.social {
+    width: 232px;
+    height: 73px;
+    background: #A276FF;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
+    margin-right: 309px;
+}
+
+.facebook {
+    color: #A276FF;
+    -webkit-text-stroke: 0.3px white;
+    font-size: 25px;
+}
+
+.twitter {
+    width: 23px;
+    height: 19px;
+    margin-top: 28px;
+}
+
+.text-button {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 3px solid white;
+    border-radius: 17px;
+    width: 352px;
+    height: 70px;
+    padding-top: 45px;
+}
+
+.main-content {
+    background: rgba(255, 255, 255, 0.85);
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    border-radius: 41px;
+    display: flex;
+    margin-top: 188px;
+    margin-left: 112px;
+}
+
+.img-item1 {
+    width: 480px;
+    height: 720px;
+    border: 6px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.45));
+    border-radius: 25px;
+    margin-top: 114px;
+    margin-right: 116px;
+}
+
+.img-item1:hover {
+    box-shadow: 7px 7px 15px black;
+    transform: scale(1.2);
+}
+
+.about-foto {
+    text-align: center;
+    margin-right: 116px;
+}
+
+hr {
+    width: 89px;
+    height: 7px;
+    background: #A276FF;
+    border-radius: 12px;
+    float: left;
+    margin-left: 110px;
+}
+
+.articale1 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    color: #111111;
+    margin-left: 110px;
+    margin-block-end: 0px;
+    margin-block-start: 114px;
+}
+
+.articale2 {
+    color: #111;
+    font-family: Roboto;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    clear: left;
+    margin-left: 110px;
+    margin-right: 147px;
+    margin-block-start: 60px;
+}
+
+.articale3 {
+    margin-left: 110px;
+    margin-right: 147px;
+    font-size: 22px;
+}
+
+.articale4 {
+    color: #111;
+    font-family: Oswald;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 110px;
+}
+
+.articale5 {
+    margin-left: 110px;
+    margin-right: 147px;
+    font-size: 22px;
+}
+
+.articale6 {
+    color: #111;
+    font-family: Oswald;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 110px;
+}
+
+.articale7 {
+    font-size: 22px;
+    margin-left: 110px;
+    margin-right: 147px;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 2172px) {
+    .body {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 130px 1fr;
+    }
+
+    .flex-logo {
+        margin-left: 5px;
+    }
+
+    .yourlogo {
+        font-size: 18px;
+    }
+
+    .yourlogo-end {
+        font-size: 18px;
+    }
+
+    .container-menu-list {
+        margin-top: 0px;
+    }
+
+    .menu-list {
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .second-menu {
+        margin-left: 25px;
+    }
+
+    .text-name {
+        margin-left: 5px;
+        font-size: 15px;
+    }
+
+    .social {
+        height: 48px;
+        margin-right: 500px;
+    }
+
+    .twitter {
+        margin-top: 5px;
+    }
+
+    .facebook {
+        margin-block-start: 2px;
+    }
+
+    .name {
+        font-size: 40px;
+        margin-left: 10px;
+        margin-block-start: 65px;
+    }
+
+    .subtitle {
+        font-size: 70px;
+        margin-left: 10px;
+    }
+
+    .main-text {
+        width: 700px;
+        margin-left: 10px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .button-link {
+        margin-left: 10px;
+    }
+
+    .text-button {
+        font-size: 16px;
+        width: 170px;
+        height: 30px;
+        padding-top: 10px;
+    }
+
+    .flex-container-foto {
+        display: wrap;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    .foto {
+        margin-right: 0;
+    }
+
+    .flex-news {
+        margin-left: 10px;
+    }
+
+    .news-box {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .triangle {
+        padding-top: 22px;
+        width: 28px;
+        height: 20px;
+    }
+
+    .text {
+        font-size: 16px;
+        line-height: 18px;
+        margin-left: 10px;
+    }
+
+    .second-menu {
+        position: absolute;
+        bottom: 50px;
+    }
+
+    .main-content {
+        width: 970px;
+        margin-top: 70px;
+        margin-left: 15px;
+    }
+
+    .articale1 {
+        margin-left: 15px;
+        margin-block-start: 10px;
+        font-size: 45px;
+        font-weight: 300px;
+        margin-right: 10px;
+    }
+
+    hr {
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    .articale2 {
+        margin-left: 15px;
+        margin-right: 10px;
+        width: 650px;
+    }
+
+    .articale3 {
+        margin-left: 15px;
+        margin-right: 10px;
+        width: 650px;
+    }
+
+    .articale4 {
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    .articale5 {
+        margin-left: 15px;
+        margin-right: 10px;
+        width: 650px;
+    }
+
+    .articale6 {
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    .articale7 {
+        margin-left: 15px;
+        margin-right: 10px;
+        width: 650px;
+    }
+
+    .img-item1 {
+        margin-top: 10px;
+        margin-right: 10px;
+        width: 240px;
+        height: auto;
+    }
+
+    .about-foto {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .body {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 130px 1fr;
+    }
+
+    .flex-logo {
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+
+    .yourlogo {
+        font-size: 18px;
+    }
+
+    .yourlogo-end {
+        font-size: 18px;
+    }
+
+    .container-menu-list {
+        margin-top: 0px;
+    }
+
+    .menu-list {
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .second-menu {
+        margin-left: 25px;
+    }
+
+    .text-name {
+        margin-left: 5px;
+        font-size: 15px;
+    }
+
+    .social {
+        height: 40px;
+        width: 130px;
+        margin-right: 150px;
+    }
+
+    .twitter {
+        margin-top: 5px;
+    }
+
+    .facebook {
+        margin-block-start: 2px;
+    }
+
+    .name {
+        font-size: 33px;
+        margin-left: 10px;
+        margin-block-start: 65px;
+    }
+
+    .subtitle {
+        font-size: 50px;
+        margin-left: 10px;
+    }
+
+    .main-text {
+        width: 600px;
+        margin-left: 10px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .button-link {
+        margin-left: 10px;
+    }
+
+    .text-button {
+        font-size: 16px;
+        width: 170px;
+        height: 30px;
+        padding-top: 10px;
+        border: 2px solid white;
+    }
+
+    .flex-container-foto {
+        display: wrap;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    .foto {
+        margin-right: 0;
+        border: 3px solid #FFFFFF;
+        width: 200px;
+        height: auto;
+    }
+
+    .flex-news {
+        margin-left: 10px;
+    }
+
+    .news-box {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .triangle {
+        padding-top: 22px;
+        width: 28px;
+        height: 20px;
+    }
+
+    .text {
+        font-size: 16px;
+        line-height: 18px;
+        margin-left: 10px;
+    }
+
+    .second-menu {
+        position: absolute;
+        bottom: 50px;
+    }
+
+    .main-content {
+        width: 930px;
+        margin-top: 70px;
+        margin-left: 15px;
+    }
+
+    .articale1 {
+        margin-left: 15px;
+        margin-block-start: 10px;
+        font-size: 35px;
+        font-weight: 300px;
+        margin-right: 10px;
+    }
+
+    hr {
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    .articale2 {
+        margin-left: 15px;
+        margin-right: 10px;
+        width: 650px;
+        font-size: 23px;
+    }
+
+    .articale3 {
+        margin-left: 15px;
+        margin-right: 10px;
+        width: 650px;
+        font-size: 20px;
+    }
+
+    .articale4 {
+        margin-left: 15px;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+
+    .articale5 {
+        margin-left: 15px;
+        margin-right: 10px;
+        width: 650px;
+        font-size: 20px;
+    }
+
+    .articale6 {
+        margin-left: 15px;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+
+    .articale7 {
+        margin-left: 15px;
+        margin-right: 10px;
+        width: 650px;
+        font-size: 20px;
+    }
+
+    .img-item1 {
+        margin-top: 10px;
+        margin-right: 15px;
+        width: 240px;
+        height: auto;
+        border: 3px solid #FFFFFF;
+    }
+
+    .about-foto {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .body {
+        width: 100%;
+        height: 100%;
+        display: inline;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .menu1 {
+        display: flex;
+    }
+
+    .menu2 {
+        display: flex;
+    }
+
+    .flex-logo {
+        margin-left: 10px;
+        margin-top: 25px;
+    }
+
+    .yourlogo {
+        font-size: 18px;
+        line-height: 19px;
+        margin-block-start: 0;
+    }
+
+    .yourlogo-end {
+        font-size: 18px;
+        line-height: 19px;
+        margin-block-start: 0%;
+    }
+
+    .container-menu-list {
+        display: flex;
+        margin-top: 13px;
+        margin-left: 15px;
+    }
+
+    .menu-list {
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .second-menu {
+        position: relative;
+        margin-left: 15px;
+        margin-top: 20px;
+        bottom: 20px;
+    }
+
+    .menu-link {
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+    .text-name {
+        margin-left: 15px;
+        font-size: 15px;
+        position: relative;
+        margin-top: 21px;
+    }
+
+    .social {
+        display: inline;
+        height: 100px;
+        width: 40px;
+        margin-right: 0px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .twitter {
+        margin-left: 5px;
+        margin-top: 23px;
+    }
+
+    .facebook {
+        margin-left: 5px;
+        margin-top: 23px;
+        margin-block-start: 2px;
+    }
+
+    .name {
+        font-size: 33px;
+        margin-left: 10px;
+        margin-block-start: 65px;
+        margin-top: auto;
+    }
+
+    .subtitle {
+        font-size: 50px;
+        margin-left: 10px;
+        margin-top: auto;
+    }
+
+    .main-text {
+        width: 600px;
+        margin-left: 10px;
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: auto;
+    }
+
+    .button-link {
+        margin-top: auto;
+        margin-left: 10px;
+    }
+
+    .text-button {
+        font-size: 16px;
+        width: 170px;
+        height: 30px;
+        padding-top: 10px;
+        border: 2px solid white;
+    }
+
+    .flex-container-foto {
+        display: wrap;
+        margin-left: 10px;
+        margin-top: auto;
+    }
+
+    .foto {
+        margin-right: 0;
+        border: 3px solid #FFFFFF;
+        width: 200px;
+        height: auto;
+    }
+
+    .flex-news {
+        margin-left: 10px;
+        margin-top: auto;
+    }
+
+    .news-box {
+        font-size: 20px;
+        line-height: 22px;
+        margin-top: auto;
+    }
+
+    .triangle {
+        padding-top: 0px;
+        width: 28px;
+        height: 20px;
+    }
+
+    .text {
+        font-size: 16px;
+        line-height: 18px;
+        margin-left: 10px;
+    }
+
+    .main-content {
+        width: 700px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .articale1 {
+        margin-left: 15px;
+        margin-block-start: 10px;
+        font-size: 35px;
+        font-weight: 300px;
+        margin-right: 10px;
+    }
+
+    hr {
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-block-end: 0px;
+    }
+
+    .articale2 {
+        margin-left: 15px;
+        margin-right: 10px;
+        width: 450px;
+        font-size: 23px;
+        margin-block-start: 30px;
+    }
+
+    .articale3 {
+        margin-left: 15px;
+        margin-right: 10px;
+        width: 450px;
+        font-size: 20px;
+    }
+
+    .articale4 {
+        margin-left: 15px;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+
+    .articale5 {
+        margin-left: 15px;
+        margin-right: 10px;
+        width: 450px;
+        font-size: 20px;
+    }
+
+    .articale6 {
+        margin-left: 15px;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+
+    .articale7 {
+        margin-left: 15px;
+        margin-right: 10px;
+        width: 450px;
+        font-size: 20px;
+    }
+
+    .img-item1 {
+        margin-top: 10px;
+        margin-right: 15px;
+        width: 210px;
+        height: auto;
+        border: 3px solid #FFFFFF;
+    }
+
+    .about-foto {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .body {
+        width: auto;
+        height: auto;
+        display: inline;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .menu2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flex-logo {
+        margin-left: 10px;
+        margin-top: 25px;
+    }
+
+    .yourlogo {
+        font-size: 18px;
+        line-height: 19px;
+        margin-block-start: 0;
+    }
+
+    .yourlogo-end {
+        font-size: 18px;
+        line-height: 19px;
+        margin-block-start: 0%;
+    }
+
+    .container-menu-list {
+        display: flex;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .menu-list {
+        margin-left: 11px;
+        margin-top: 0px;
+        font-size: 13px;
+    }
+
+    .second-menu {
+        position: relative;
+        margin-left: 15px;
+        margin-top: 20px;
+        bottom: 20px;
+    }
+
+    .menu-link {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        font-size: 14px;
+    }
+
+    .text-name {
+        margin-left: 15px;
+        font-size: 14px;
+        position: relative;
+        margin-top: 17px;
+    }
+
+    .social {
+        display: inline;
+        height: 85px;
+        width: 35px;
+        margin-right: 0;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .twitter {
+        margin-left: 6px;
+        margin-top: 17px;
+    }
+
+    .facebook {
+        margin-left: 9px;
+        margin-top: 23px;
+        margin-block-start: 2px;
+    }
+
+    .name {
+        font-size: 23px;
+        margin-left: 10px;
+        margin-block-start: 65px;
+        margin-top: auto;
+    }
+
+    .subtitle {
+        font-size: 35px;
+        margin-left: 10px;
+        margin-top: auto;
+    }
+
+    .main-text {
+        width: auto;
+        margin-left: 10px;
+        font-size: 14px;
+        line-height: 25px;
+        margin-top: auto;
+    }
+
+    .button-link {
+        margin-top: auto;
+        margin-left: 10px;
+    }
+
+    .text-button {
+        font-size: 14px;
+        width: 140px;
+        height: 25px;
+        padding-top: 10px;
+        border: 1px solid white;
+    }
+
+    .flex-container-foto {
+        display: wrap;
+        margin-left: 10px;
+        margin-top: auto;
+    }
+
+    .foto {
+        margin-right: 0;
+        border: 2px solid #FFFFFF;
+        width: 200px;
+        height: auto;
+    }
+
+    .flex-news {
+        margin-left: 10px;
+        margin-top: auto;
+    }
+
+    .news-box {
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: auto;
+    }
+
+    .triangle {
+        padding-top: 0px;
+        width: 28px;
+        height: 20px;
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: 10px;
+    }
+
+    .main-content {
+        width: 290px;
+        margin-top: 20px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articale1 {
+        margin-left: 7px;
+        margin-block-start: 10px;
+        font-size: 25px;
+        font-weight: 300px;
+        margin-right: 10px;
+    }
+
+    hr {
+        margin-left: 7px;
+        margin-right: 10px;
+        margin-block-end: 0px;
+        height: 4px;
+    }
+
+    .articale2 {
+        margin-left: 7px;
+        margin-right: 10px;
+        width: 270px;
+        font-size: 18px;
+        margin-block-start: 30px;
+    }
+
+    .articale3 {
+        margin-left: 7px;
+        margin-right: 10px;
+        width: 270px;
+        font-size: 14px;
+    }
+
+    .articale4 {
+        margin-left: 7px;
+        margin-right: 10px;
+        font-size: 18px;
+    }
+
+    .articale5 {
+        margin-left: 7px;
+        margin-right: 10px;
+        width: 270px;
+        font-size: 14px;
+    }
+
+    .articale6 {
+        margin-left: 7px;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    .articale7 {
+        margin-left: 7px;
+        margin-right: 10px;
+        width: 270px;
+        font-size: 14px;
+    }
+
+    .img-item1 {
+        margin-top: 10px;
+        margin-right: 15px;
+        width: 150px;
+        height: auto;
+        border: 1px solid #FFFFFF;
+        margin-left: 10px;
+    }
+
+    .about-foto {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .body {
+        width: auto;
+        height: auto;
+        display: inline;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .menu2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flex-logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .yourlogo {
+        font-size: 18px;
+        line-height: 19px;
+        margin-block-start: 0;
+    }
+
+    .yourlogo-end {
+        font-size: 18px;
+        line-height: 19px;
+        margin-block-start: 0%;
+    }
+
+    .container-menu-list {
+        display: flex;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .menu-list {
+        margin-left: 11px;
+        margin-top: 0px;
+        font-size: 11px;
+    }
+
+    .second-menu {
+        position: relative;
+        margin-left: 12px;
+        margin-top: 20px;
+        bottom: 20px;
+    }
+
+    .menu-link {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        font-size: 14px;
+    }
+
+    .text-name {
+        margin-left: 15px;
+        font-size: 14px;
+        position: relative;
+        margin-top: 17px;
+    }
+
+    .social {
+        display: inline;
+        height: 80px;
+        width: 33px;
+        margin-right: 0;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .twitter {
+        margin-left: 8px;
+        margin-top: 15px;
+    }
+
+    .facebook {
+        margin-left: 11px;
+        margin-top: 23px;
+        margin-block-start: 2px;
+    }
+
+    .name {
+        font-size: 23px;
+        margin-left: 10px;
+        margin-block-start: 65px;
+        margin-top: auto;
+    }
+
+    .subtitle {
+        font-size: 35px;
+        margin-left: 10px;
+        margin-top: auto;
+    }
+
+    .main-text {
+        width: auto;
+        margin-left: 10px;
+        font-size: 14px;
+        line-height: 15px;
+        margin-top: auto;
+    }
+
+    .button-link {
+        margin-top: auto;
+        margin-left: 10px;
+    }
+
+    .text-button {
+        font-size: 14px;
+        width: 140px;
+        height: 25px;
+        padding-top: 10px;
+        border: 1px solid white;
+    }
+
+    .flex-container-foto {
+        display: wrap;
+        margin-left: 10px;
+        margin-top: auto;
+    }
+
+    .foto {
+        margin-right: 0;
+        border: 2px solid #FFFFFF;
+        width: 200px;
+        height: auto;
+    }
+
+    .flex-news {
+        margin-left: 10px;
+        margin-top: auto;
+    }
+
+    .news-box {
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: auto;
+    }
+
+    .triangle {
+        padding-top: 0px;
+        width: 28px;
+        height: 20px;
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 15px;
+        margin-left: 10px;
+        margin-block-start: 0;
+    }
+
+    .main-content {
+        width: 282px;
+        margin-top: 20px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articale1 {
+        margin-left: 7px;
+        margin-block-start: 10px;
+        font-size: 20px;
+        font-weight: 300px;
+        margin-right: 10px;
+    }
+
+    hr {
+        margin-left: 7px;
+        margin-right: 10px;
+        margin-block-end: 0px;
+        height: 3px;
+    }
+
+    .articale2 {
+        margin-left: 7px;
+        margin-right: 10px;
+        width: 270px;
+        font-size: 16px;
+        margin-block-start: 30px;
+    }
+
+    .articale3 {
+        margin-left: 7px;
+        margin-right: 10px;
+        width: 270px;
+        font-size: 13px;
+    }
+
+    .articale4 {
+        margin-left: 7px;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+
+    .articale5 {
+        margin-left: 7px;
+        margin-right: 10px;
+        width: 270px;
+        font-size: 14px;
+    }
+
+    .articale6 {
+        margin-left: 7px;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    .articale7 {
+        margin-left: 7px;
+        margin-right: 10px;
+        width: 270px;
+        font-size: 14px;
+    }
+
+    .img-item1 {
+        margin-top: 10px;
+        margin-right: 15px;
+        width: 150px;
+        height: auto;
+        border: 1px solid #FFFFFF;
+        margin-left: 10px;
+    }
+
+    .about-foto {
+        text-align: center;
+        margin: 0;
+    }
+}
